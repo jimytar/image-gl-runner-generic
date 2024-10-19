@@ -2,6 +2,9 @@ name: MAIN - Build, Tag and Push 🚀 | DockerHub Registry
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'Dockerfile'
 
 jobs:
   build-and-push:
