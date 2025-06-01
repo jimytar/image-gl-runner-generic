@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-and-push:
-    runs-on: truenas-runner-gl-runner
+    runs-on: gl-runner-image-runner
     permissions:
       contents: write
       
